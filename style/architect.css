@@ -26,7 +26,13 @@
     .bg-light{
       background-color: rgba(255, 144, 14, 0.1);
       width: 100%;
-      /* margin: 30px; */
+    }
+    .button-primary{
+      background-color: #ff900e;
+      color: white;
+      padding: 20px 25px;
+      font-size: 1.25px;
+      font-weight: 600;
     }
     /* header style */
 
@@ -53,4 +59,21 @@
       font-weight: 700;
       font-size: 2.8rem;
       align-items: center;
+    }
+    /* banner related style */
+    .banner-content{
+      max-width: 850px;
+      margin: 0px auto;
+      text-align: center;
+    }
+    .banner-img{
+      width: 70%;
+      margin: auto;
+    }
+    .banner-image{
+      justify-content: center;
+    }
+    .banner-title{
+      font-weight: 700;
+      font-size: 4rem;
     }
