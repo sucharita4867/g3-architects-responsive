@@ -81,3 +81,7 @@
       font-weight: 700;
       font-size: 4rem;
     }
+    /* responsive media query */
+    @media screen and (max-width:576px) {
+      
+    }
