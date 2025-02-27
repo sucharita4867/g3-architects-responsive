@@ -148,8 +148,13 @@ main>section {
 /* responsive media query */
 @media screen and (max-width:576px) {
 
-  .nav-link .navbar {
+  .navbar {
     flex-direction: column;
+  }
+
+  .nav-link {
+    gap: 15px;
+    flex-wrap: wrap;
   }
 
   .banner-title {
@@ -175,5 +180,14 @@ main>section {
   .team-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
   }
+
+  .feature-description {
+    width: 34em;
+    font-size: 10px;
+    font-weight: 370;
+  }
+
+
 }
