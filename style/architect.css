@@ -143,6 +143,10 @@ main>section {
   padding: 15px 12px;
 }
 
+/* features will enjoy */
+
+.section-title {}
+
 /* responsive media query */
 @media screen and (max-width:576px) {
 
